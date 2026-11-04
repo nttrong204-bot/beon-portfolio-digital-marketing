@@ -13,7 +13,7 @@ export const GIDS = {
 /* Columns that are internal notes and must never reach the public site or the bot. */
 const PRIVATE_COLUMNS = ['note'];
 
-const TTL = 5 * 60 * 1000;
+const TTL = 60 * 1000;
 let cache = { at: 0, data: null };
 
 function csvUrl(tab) {
