@@ -1,0 +1,4 @@
+/* Tailwind v4 without its preflight: the approved v3 stylesheet (legacy.css) owns the base styles.
+   Tailwind utilities are available for new components. */
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);

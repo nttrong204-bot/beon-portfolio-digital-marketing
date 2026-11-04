@@ -1,0 +1,36 @@
+export const L={
+'nav.work':['Dự án','Work'],'nav.skills':['Năng lực','Skills'],'nav.xp':['Kinh nghiệm','Experience'],'nav.jd':['Kiểm tra JD','JD check'],'nav.contact':['Liên hệ','Contact'],
+'hero.cta1':['Xem dự án','See the work'],'hero.cta2':['Liên hệ','Get in touch'],'hero.worked':['Đã làm cùng','Worked with'],
+'of.h':['Việc tôi nhận làm','What I take on'],'of.s':['Bảy mảng việc, từ chạy quảng cáo đến tự động hóa bằng AI. Vuốt ngang hoặc dùng mũi tên để xem từng phần.','Seven areas, from running ads to AI automation. Swipe sideways or use the arrows to go through them.'],'of.prev':['Phần trước','Previous'],'of.next':['Phần sau','Next'],'of.see':['Xem phần liên quan','See the related section'],
+'pj.h':['Dự án tiêu biểu','Selected work'],'pj.s':['Kéo vòng để xem các dự án đã chạy thật, bấm một thẻ để mở chi tiết. Bốn dự án nổi bật được kể kỹ bên dưới.','Drag the ring to browse the campaigns I actually ran and click a card for details. The four standout projects are told in full below.'],
+'ctx':['Bối cảnh','Context'],'how':['Cách làm','Approach'],'read':['Đọc case đầy đủ','Read the full case'],'months':['tháng','months'],
+'all.h':['Tất cả dự án','All projects'],'all.s':['Bấm vào một dòng để xem bối cảnh, cách làm và số liệu.','Click a row to see context, approach and numbers.'],
+'th.b':['Dự án','Project'],'th.i':['Ngành','Industry'],'th.c':['Kênh','Channels'],'th.r':['Kết quả chính','Key result'],'th.t':['Thời gian','Duration'],
+'f.all':['Tất cả','All'],'f.ads':['Ads','Ads'],'f.kol':['KOL & Social','KOL & Social'],'f.concept':['Concept tự đề xuất','Self-initiated concepts'],
+'concept':['Concept','Concept'],
+'xp.h':['Kinh nghiệm','Experience'],'xp.tc':['Công cụ & học vấn','Tools & education'],'xp.tl':['Đã làm ở đâu','Where I have worked'],'xp.edu':['Học vấn:','Education:'],
+'ss.g1':['Creative','Creative'],'ss.g2':['Kênh quảng cáo','Ad channels'],'ss.proj':['Dự án liên quan:','Related projects:'],'ss.see':['Xem trong dự án:','See it in:'],
+'jd.h':['JD của bạn có hợp với tôi không?','Does your job description fit me?'],'jd.s':['Dán mô tả công việc, công cụ sẽ so với kỹ năng và dự án ở trên.','Paste a job description and it is checked against the skills and projects above.'],
+'jd.l':['Mô tả công việc','Job description'],'jd.b':['Kiểm tra độ phù hợp','Check the fit'],
+'jd.note':['So khớp theo từ khóa với kỹ năng và dự án trong portfolio này. Nội dung bạn dán không được lưu.','Keyword match against the skills and projects in this portfolio. Pasted text is not stored.'],
+'jd.sample':['Tuyển Performance Marketing cho game mobile: chạy Facebook Ads, Google Ads, TikTok Ads và các network (AppLovin, Unity Ads); theo dõi CPI, ROAS bằng AppsFlyer hoặc Adjust; tự sản xuất video và banner quảng cáo; có kinh nghiệm ASO. Ưu tiên làm việc remote.','Hiring a Performance Marketer for mobile games: run Facebook Ads, Google Ads, TikTok Ads and ad networks (AppLovin, Unity Ads); track CPI and ROAS in AppsFlyer or Adjust; produce video and banner ads; ASO experience. Remote preferred.'],
+'jd.fit':['phù hợp','fit'],'jd.st':['Khớp','Matches'],'jd.gp':['Cần trao đổi thêm','Worth discussing'],'jd.cs':['Dự án nên xem','Projects to look at'],
+'jd.none':['Chưa thấy điểm trùng với kỹ năng đã khai báo. Hãy dán đầy đủ hơn.','No overlap with the listed skills yet. Try pasting more of the description.'],'jd.nogap':['Không có điểm lệch rõ ràng','No clear gaps'],
+'ai.fab':['Hỏi AI về tôi','Ask AI about me'],'ai.ph':['Nhập câu hỏi...','Type a question...'],
+'ai.hello':['Xin chào! Mình trả lời về kinh nghiệm, kênh quảng cáo và kết quả của Nguyễn Thế Trọng. Bạn muốn biết gì?','Hi! I can answer questions about Nguyen The Trong\'s experience, ad channels and results. What would you like to know?'],
+'ai.demo':['Trả lời tự động, chỉ dựa trên dữ liệu trong portfolio.','Automated answers based only on the data in this portfolio.'],
+'q1':['Đã chạy TikTok Ads chưa?','Have you run TikTok Ads?'],'q2':['ROAS tốt nhất là bao nhiêu?','Best ROAS so far?'],'q3':['Tự làm video, banner được không?','Can you make videos and banners?'],'q4':['Bạn tìm việc dạng nào?','What kind of work are you after?'],
+'c.h':['Cần người chạy chiến dịch có số liệu rõ ràng?','Need someone to run campaigns with clear numbers?'],
+'c.s':['Nhận full-time, part-time và freelance, ưu tiên remote. Gửi email hoặc gọi, tôi sẽ phản hồi sớm nhất có thể.','Open to full-time, part-time and freelance, remote preferred. Email or call and I will get back to you as soon as I can.'],
+'c.mail':['Gửi email','Send email'],'c.phone':['Điện thoại','Phone'],'c.show':['Hiện số','Show number'],'c.cv':['Tải CV','Download CV'],'c.li':['LinkedIn','LinkedIn'],'c.fg':['Portfolio Figma','Figma portfolio'],
+'m.goal':['Mục tiêu','Goal'],'m.str':['Chiến lược','Strategy'],'m.res':['Kết quả','Results'],'m.les':['Bài học','Lesson'],'m.role':['Vai trò','Role'],'m.close':['Đóng','Close'],
+'m.concept':['Đây là bài tự đề xuất, chưa chạy thực tế nên không có số liệu kết quả.','This is a self-initiated proposal that never ran, so there are no results to report.'],
+'toast.copied':['Đã sao chép','Copied'],'toast.sel':['Đã chọn văn bản, nhấn Ctrl+C để sao chép','Text selected, press Ctrl+C to copy'],
+'foot':['Performance & Creative Marketer','Performance & Creative Marketer']
+};
+Object.assign(L, {
+  'ai.demo': ['Trợ lý AI trả lời dựa trên dữ liệu trong portfolio. Câu hỏi được gửi tới Gemini (Google) để tạo câu trả lời, vui lòng không nhập thông tin cá nhân.', 'The AI assistant answers from the data in this portfolio. Questions are sent to Gemini (Google) to generate the answer, so please do not enter personal details.'],
+  'ai.fb': ['Trợ lý đang bận hoặc đã hết lượt hỏi. Bạn liên hệ trực tiếp qua email nhé:', 'The assistant is busy or out of questions for now. Please reach me directly by email:'],
+  'ai.lim': ['Bạn đã dùng hết số câu hỏi cho phiên này. Liên hệ trực tiếp qua email nhé:', 'You have used all the questions for this session. Please reach me directly by email:'],
+  'ai.err': ['Có lỗi khi gửi câu hỏi.', 'Something went wrong sending the question.']
+});
