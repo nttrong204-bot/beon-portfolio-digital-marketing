@@ -88,7 +88,7 @@ export default async function handler(req, res) {
   const ip = String(req.headers['x-forwarded-for'] || req.socket?.remoteAddress || 'unknown').split(',')[0].trim();
   if (limited(ip)) return res.status(429).json({ error: 'limit' });
 
-  const key = process.env.GEMINI_API_KEY;
+  const key = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY || process.env.GOOGLE_AI_STUDIO_API;
   if (!key) return res.status(503).json({ error: 'not_configured' });
 
   try {

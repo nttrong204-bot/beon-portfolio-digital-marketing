@@ -2,6 +2,7 @@
    cache them for a few minutes, and fall back to the snapshot bundled with the site if the Sheet is unreachable. */
 import { parseCSV, TAB_NAMES } from '../src/lib/content.js';
 import snapshot from '../src/data/snapshot.json' with { type: 'json' };
+import botSnapshot from './bot-snapshot.json' with { type: 'json' };
 
 /* gid of each tab in the Sheet (the number after gid= in the tab's URL) */
 export const GIDS = {
@@ -32,7 +33,7 @@ function stripPrivate(rows) {
 /* Returns { tabs, live }: tabs = every tab (public and Bot), live = true when at least the core tabs came from the Sheet. */
 export async function loadTabs() {
   if (cache.data && Date.now() - cache.at < TTL) return cache.data;
-  const tabs = { ...snapshot };
+  const tabs = { ...snapshot, ...botSnapshot };
   let loaded = 0;
   await Promise.all(Object.keys(GIDS).map(async tab => {
     const url = csvUrl(tab);
